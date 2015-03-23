@@ -5642,7 +5642,9 @@ button.close {
       .head .img-background img {
         height: auto;
         width: 100%;
-        opacity: 0.4; } }
+        opacity: 0.4; }
+    .head .head-container {
+      padding: 0 48px; } }
 
 .introduction {
   color: #333;
@@ -5701,6 +5703,15 @@ button.close {
         font-size: 32px;
         margin-bottom: 77px; } }
 
+.bg-home {
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: -16px;
+  padding-top: 16px; }
+  @media (min-width: 768px) {
+    .bg-home {
+      margin-top: -88px;
+      padding-top: 24px; } }
+
 .cards {
   margin-left: -8px;
   margin-right: -8px;
@@ -5734,7 +5745,7 @@ button.close {
         float: left;
         width: 33.33333%; } }
     .cards .card-container:hover {
-      opacity: 0.2; }
+      opacity: 0.4; }
     .cards .card-container img {
       width: 100%; }
     .cards .card-container .title {
@@ -5746,19 +5757,16 @@ button.close {
       bottom: 16px;
       width: 95%; }
 
-.bg-home {
-  background: rgba(255, 255, 255, 0.5);
-  margin-top: -16px;
-  padding-top: 16px; }
-  @media (min-width: 768px) {
-    .bg-home {
-      margin-top: -88px;
-      padding-top: 24px; } }
-
 .footer {
   background: #ffdbff;
   border-bottom: 1px solid #ba007c;
-  padding: 16px 24px; }
+  padding: 16px 24px;
+  margin-top: 16px; }
+  .footer:before, .footer:after {
+    content: " ";
+    display: table; }
+  .footer:after {
+    clear: both; }
   .footer .email {
     float: left; }
   .footer .share {

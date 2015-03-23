@@ -1,0 +1,13 @@
+.footer {
+  @include clearfix;
+  background: #ffdbff;
+  border-bottom: 1px solid #ba007c;
+  padding: ($padding-base*2) ($padding-base*3);
+  margin-top: $margin-base*2;
+  .email {
+    float: left;
+  }
+  .share {
+    float: right;
+  }
+}
