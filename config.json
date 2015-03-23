@@ -1,0 +1,62 @@
+{
+  "scriptEntryPoint": "",
+  "styleEntryPoint": "",
+  "htmlEntryPoint": "",
+  "namespacePrefix": "",
+  "deployName": "",
+
+  "paths": {
+    "scriptSources": "src/scripts",
+    "styleSources": "src/styles",
+    "htmlSources": "src/htmls",
+    "templateSources": "src/scripts/templates",
+    "testSources": "test",
+    "testSpecSources": "<%= config.paths.testSources %>/specs",
+    "testMockSources": "<%= config.paths.testSources %>/mocks",
+    "testHelperSources": "<%= config.paths.testSources %>/helpers",
+    "scriptEntryPoints": "<%= config.paths.scriptSources %>/entryPoints",
+    "styleEntryPoints": "<%= config.paths.styleSources %>/entryPoints",
+    "dependencies": "bower_components",
+    "reports": "reports",
+    "distribution": "dist",
+    "scriptsDistribution": "<%= config.paths.distribution %>/scripts",
+    "stylesDistribution": "<%= config.paths.distribution %>/styles",
+    "htmlsDistribution": "<%= config.paths.distribution %>/htmls",
+    "temp": ".temp"
+  },
+
+  "deploy": {
+    "host": "madup0701",
+    "username": "rumbo",
+    "stgPath": "/data/STG/common/ui/brg-ui",
+    "prdPath": "/data/PRD/common/ui/brg-ui"
+  },
+
+  "dependencies": {
+    "internalDependencies": [
+      "<%= config.paths.dependencies %>/brg-ui-*/<%= config.paths.scriptSources %>/**/*.js",
+      "<%= config.paths.dependencies %>/brg-ui-*/<%= config.paths.templateSources %>/**/*.js",
+      "!<%= config.paths.dependencies %>/brg-ui-*/<%= config.paths.scriptEntryPoints %>/**/*.js",
+      "!<%= config.paths.dependencies %>/brg-ui-gruntfolder/**/*.js"
+    ],
+    "externalDependencies": [
+      "<%= config.paths.dependencies %>/jquery/jquery.js",
+      "<%= config.paths.dependencies %>/underscore/underscore.js",
+      "<%= config.paths.dependencies %>/backbone/backbone.js"
+    ],
+    "testDependencies": [
+      "<%= config.paths.dependencies %>/jasmine-jquery/lib/jasmine-jquery.js",
+      "<%= config.paths.dependencies %>/sinonjs/sinon.js"
+    ]
+  },
+
+  "server": {
+    "hosting": "localhost",
+    "port": 9000,
+    "path": "demo"
+  },
+
+  "gruntfolders": [
+    "./<%= config.paths.dependencies %>/brg-ui-gruntfolder"
+  ]
+}

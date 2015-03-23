@@ -1,0 +1,154 @@
+$container-desktop:            (980px) !default;
+$container-large-desktop:      (980px) !default;
+$screen-lg:                     1350px !default;
+
+$zindex-navbar-fixed:      1080 !default;
+
+$size-base:              40px !default;
+$size-large:             48px !default;
+$size-small:             32px !default;
+$size-xsmall:            24px !default;
+
+$body-bg:               #f2f2f2 !default;
+
+$font-family-sans-serif:  "Ubuntu", Arial, Helvetica, sans-serif !default;
+$grid-gutter-width:         16px !default;
+$margin-base:               8px !default;
+$padding-base:              8px !default;
+$padding-base-vertical:     8px !default;
+$padding-base-horizontal:   8px !default;
+
+$font-size-base:            14px !default;
+$font-size-xsmall:          10px !default;
+$font-size-small:           12px !default;
+$font-size-medium:          16px !default;
+$font-size-large:           18px !default;
+$font-size-xlarge:          20px !default;
+$font-size-xxlarge:         24px !default;
+
+
+
+$gray-base:             #333333 !default;
+$gray-darker:           #484848 !default;
+$gray-dark:             #767676 !default;
+$gray:                  #c0c0c0 !default;
+$gray-light:            #f2f2f2 !default;
+$gray-lighter:          #f8f8f8 !default;
+$white:                 #ffffff !default;
+
+$text-color:            $gray-base !default;
+
+$text-light:            300 !default;
+$text-medium:           500 !default;
+$text-bold:             700 !default;
+
+$border-color-base:     #D8D8D8 !default;
+
+$border-radius-base:        2px !default;
+$border-radius-large:       2px !default;
+$border-radius-small:       2px !default;
+
+$padding-base-vertical:     8px !default;
+$padding-base-horizontal:   8px !default;
+
+$padding-large-vertical:    8px !default;
+$padding-large-horizontal:  16px !default;
+
+$padding-small-vertical:    4px !default;
+$padding-small-horizontal:  8px !default;
+
+$brand-primary:           #01367d !default;
+$brand-secondary:         #00afe3 !default;
+//$brand-secondary-light:   #cceff9 !default;
+$brand-tertiary:          #f8e71c !default;
+//$brand-cta:               #ff6600 !default;
+
+$brand-success:         #4ba31f !default;
+$brand-danger:          #ad2133 !default;
+$brand-success-light:   lighten($brand-success, 30%) !default;
+$brand-danger-light:    lighten($brand-danger, 25%) !default;
+
+
+
+//
+////== Tabs
+//$nav-tabs-border-color:                     $brand-secondary !default;
+//$nav-tabs-link-hover-border-color:          $brand-secondary !default;
+//$nav-tabs-active-link-hover-bg:             transparent !default;
+//$nav-tabs-active-link-hover-color:          $brand-secondary !default;
+//$nav-tabs-active-link-hover-border-color:   $brand-secondary !default;
+//$nav-tabs-link-padding:                     8px 24px !default;
+//
+//$nav-tabs-inverse-link-hover-border-color:          $white !default;
+//$nav-tabs-inverse-active-link-hover-border-color:   $white !default;
+//
+//
+////== Panels
+//
+//$panel-bg:                    #fff !default;
+//$panel-body-padding:          16px !default;
+//$panel-heading-padding:       16px !default;
+//
+////** Border color for elements within panels
+//$panel-inner-border:          transparent !default;
+//$panel-footer-bg:             #fff !default;
+//
+//
+//$panel-default-text:          $text-color !default;
+//$panel-default-border:        $gray-dark !default;
+//$panel-default-heading-bg:    transparent !default;
+//
+//
+//$panel-secondary-text:          #fff !default;
+//$panel-secondary-border:        transparent !default;
+//$panel-secondary-heading-bg:    $brand-secondary !default;
+//
+//
+////== Carousel
+//
+//$carousel-text-shadow:                        0 -1px 1px rgba(0,0,0,0.7) !default;
+//$carousel-control-opacity:                    1 !default;
+//
+//
+////== input height
+//$input-height-base:              $size-base !default;
+//$input-height-large:             $size-large !default;
+//$input-height-small:             $size-small !default;
+//$input-color:                    $gray-dark !default;
+//$input-border:                   $gray-dark !default;
+//
+//
+//$well-bg:                       #ffffff !default;
+//
+//
+////== Buttons
+//
+//$btn-default-color:              $white !default;
+//$btn-default-bg:                 $brand-secondary !default;
+//$btn-default-border:             $brand-secondary !default;
+//
+//$btn-success-color:              $brand-success !default;
+//$btn-success-bg:                 $brand-success-light !default;
+//$btn-success-border:             $brand-success !default;
+//
+//$btn-danger-color:               $brand-danger !default;
+//$btn-danger-bg:                  $brand-danger-light !default;
+//$btn-danger-border:              $brand-danger !default;
+//
+////== Pagination
+//
+//$pagination-color:                     $brand-secondary !default;
+//$pagination-bg:                        $white !default;
+//$pagination-border:                    $border-color-base !default;
+//
+//$pagination-hover-color:               $white !default;
+//$pagination-hover-bg:                  $brand-secondary !default;
+//$pagination-hover-border:              $brand-secondary !default;
+//
+//$pagination-active-color:              $white  !default;
+//$pagination-active-bg:                 $brand-secondary !default;
+//$pagination-active-border:             $brand-secondary !default;
+//
+//$pagination-disabled-color:            $border-color-base !default;
+//$pagination-disabled-bg:               $white !default;
+//$pagination-disabled-border:           $border-color-base !default;
