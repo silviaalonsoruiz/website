@@ -5627,9 +5627,8 @@ button.close {
   z-index: -1;
   width: 100%; }
   .head .img-background img {
-    height: 390px;
     width: auto;
-    opacity: 0.5; }
+    opacity: 0.6; }
 @media (min-width: 768px) {
   .head {
     height: 522px; }
@@ -5641,8 +5640,7 @@ button.close {
       z-index: -1; }
       .head .img-background img {
         height: auto;
-        width: 100%;
-        opacity: 0.4; }
+        width: 100%; }
     .head .head-container {
       padding: 0 48px; } }
 
@@ -5672,30 +5670,30 @@ button.close {
       font-weight: 300; }
   @media (min-width: 768px) {
     .introduction {
-      margin-top: 75px;
-      padding: 0 36px;
+      margin-top: 55px;
+      padding: 0;
       line-height: 39px; }
       .introduction .title {
         font-size: 44px; }
       .introduction .subtitle {
         font-size: 28px;
-        margin-bottom: 77px;
+        margin-bottom: 50px;
         line-height: 37px; }
       .introduction .quote {
-        font-size: 22px;
-        font-style: italic; }
+        font-size: 26px;
+        font-style: italic;
+        line-height: 39px; }
         .introduction .quote span {
           float: right;
           display: inline-block;
           font-weight: 300;
-          font-size: 18px;
+          font-size: 20px;
           margin-top: 24px;
           font-style: normal; } }
   @media (min-width: 992px) {
     .introduction {
       margin-top: 80px;
-      font-weight: 500;
-      padding: 0; }
+      font-weight: 500; }
       .introduction .title {
         font-size: 56px;
         margin-bottom: 32px; }
@@ -5745,7 +5743,7 @@ button.close {
         float: left;
         width: 33.33333%; } }
     .cards .card-container:hover {
-      opacity: 0.4; }
+      opacity: 0.5; }
     .cards .card-container img {
       width: 100%; }
     .cards .card-container .title {
@@ -5758,8 +5756,7 @@ button.close {
       width: 95%; }
 
 .footer {
-  background: #ffdbff;
-  border-bottom: 1px solid #ba007c;
+  background: #f6dd94;
   padding: 16px 24px;
   margin-top: 16px; }
   .footer:before, .footer:after {
@@ -5771,5 +5768,10 @@ button.close {
     float: left; }
   .footer .share {
     float: right; }
+  .footer img {
+    width: 50px; }
+    @media (min-width: 768px) {
+      .footer img {
+        width: 60px; } }
 
 /*# sourceMappingURL=home.css.map */

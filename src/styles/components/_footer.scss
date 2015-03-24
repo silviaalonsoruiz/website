@@ -1,7 +1,7 @@
 .footer {
   @include clearfix;
-  background: #ffdbff;
-  border-bottom: 1px solid #ba007c;
+  background: #f6dd94;
+//  border-bottom: 1px solid #ba007c;
   padding: ($padding-base*2) ($padding-base*3);
   margin-top: $margin-base*2;
   .email {
@@ -9,5 +9,11 @@
   }
   .share {
     float: right;
+  }
+  img{
+    width: 50px;
+    @media (min-width: $screen-sm-min){
+      width: 60px;
+    }
   }
 }
