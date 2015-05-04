@@ -1,37 +1,51 @@
 .head {
-  .img-background {
-    overflow: hidden;
-    text-align: center;
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    img {
-//      height: 390px;
-      width: auto;
-      opacity: 0.6;
+  height: auto;
+  .head-container {
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: $white;
+      content: "";
+      opacity: 0.3;
     }
   }
   @media (min-width: $screen-sm-min) {
-    height: 522px;
-    .img-background {
-      height: 522px;
-      overflow: hidden;
-      text-align: center;
-      position: absolute;
-      z-index: -1;
-      img {
-        height: auto;
-        width: 100%;
-//        opacity: 0.6;
-      }
+    height: 430px;
+    .head-container {
+      position: relative;
+      height: 430px;
+//      background-size: cover;
+//      background-attachment: fixed;
+//      background-position: center center;
+//      &:before {
+//        position: absolute;
+//        top: 0;
+//        left: 0;
+//        width: 100%;
+//        height: 100%;
+//        background: $white;
+//        content: "";
+//        opacity: 0.3;
+//      }
     }
+  }
+  @media (min-width: $screen-md-min){
+    height: 522px;
     .head-container{
-      padding: 0 ($padding-base*6);
+      height: 522px;
     }
   }
 }
 
 .introduction {
+  position: relative;
   color: #333;
   font-weight: $text-medium;
   padding: 16px 8px 65px;
@@ -60,7 +74,7 @@
     }
   }
   @media (min-width: $screen-sm-min) {
-    margin-top: 55px;
+    top: 30px;
     padding: 0;
     line-height: 39px;
     .title {
@@ -86,9 +100,9 @@
     }
   }
   @media (min-width: $screen-md-min) {
-    margin-top: 80px;
+//    position: relative;
+    top: 66px;
     font-weight: $text-medium;
-//    padding: 0;
     .title {
       font-size: 56px;
       margin-bottom: $margin-base*4;
