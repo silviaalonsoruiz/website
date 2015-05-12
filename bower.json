@@ -12,7 +12,7 @@
     "jquery": "https://github.com/jquery/jquery/tree/2.1.4"
   },
   "ignore": [
-    "node_modules",
-    "bower_components"
+    "node_modules"
+//    "bower_components"
   ]
 }
