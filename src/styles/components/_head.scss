@@ -104,12 +104,15 @@
     top: 66px;
     font-weight: $text-medium;
     .title {
-      font-size: 56px;
+      font-size: 66px;
       margin-bottom: $margin-base*4;
+      line-height: 49px;
     }
     .subtitle {
-      font-size: 32px;
-      margin-bottom: 77px;
+      font-size: 37px;
+      margin-bottom: 60px;
+      line-height: 45px;
+      font-weight: $text-light;
     }
   }
 }

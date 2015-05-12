@@ -6,10 +6,10 @@
   "homepage": "www.silviaalonso.es",
   "dependencies": {},
   "devDependencies": {
-    "bootstrap-sass-official": "~3.3.0"
+    "bootstrap-sass-official": "https://github.com/twbs/bootstrap-sass.git#v3.3.1"
   },
   "resolutions": {
-    "jquery": "~1.9.1"
+    "jquery": "https://github.com/jquery/jquery/tree/2.1.4"
   },
   "ignore": [
     "node_modules",

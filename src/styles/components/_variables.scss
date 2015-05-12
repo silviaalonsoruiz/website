@@ -30,8 +30,8 @@ $font-size-xxlarge:         24px !default;
 $gray-base:             #333333 !default;
 $gray-darker:           #484848 !default;
 $gray-dark:             #767676 !default;
-$gray:                  #c0c0c0 !default;
-$gray-light:            #f2f2f2 !default;
+$gray:                  #cccccc !default;
+$gray-light:            #ededed !default;
 $gray-lighter:          #f8f8f8 !default;
 $white:                 #ffffff !default;
 
@@ -67,7 +67,7 @@ $brand-danger:          #ad2133 !default;
 $brand-success-light:   lighten($brand-success, 30%) !default;
 $brand-danger-light:    lighten($brand-danger, 25%) !default;
 
-
+//$icon-font-path: "../../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap";
 
 //
 ////== Tabs
