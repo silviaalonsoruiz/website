@@ -1,0 +1,86 @@
+.navbar {
+  position: absolute;
+  border: 1px solid transparent;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  background: transparent;
+  ul {
+    margin-right: 1%;
+  }
+  li {
+    font-size: 20px;
+    font-weight: $text-light;
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: $white;
+  &:hover, :focus {
+    color: $brand-primary;
+  }
+  span {
+    padding-left: 15px;
+    display: inline-block
+  }
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  &:hover, :focus {
+    background-color: transparent;
+  }
+  .icon-bar {
+    background-color: $white;
+    width: 30px;
+    height: 3px;
+
+  }
+}
+
+.navbar-default .navbar-collapse {
+  @media (max-width: $screen-xs-max) {
+    background-color: $brand-primary;
+    border-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 244px;
+    height: 350px;
+    .navbar-nav > li > a {
+      color: $gray-base;
+      font-size: 28px;
+      padding-bottom: 20px;
+      &:hover, :focus {
+        color: $gray-base;
+      }
+      span {
+        display: none;
+      }
+    }
+  }
+
+}
+
+.brand-logo {
+  background: url(../../src/images/header/logo-header-mobile.png) center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 47px;
+  margin-top: 15px;
+  @media (min-width: $screen-sm-min) {
+    background: url(../../src/images/header/logo-header-desktop.png) center no-repeat;
+    height: auto;
+    width: 250px;
+    background-size: contain;
+  }
+  @media (min-width: $screen-md-min) {
+    background: url(../../src/images/header/logo-header-desktop.png) center no-repeat;
+    height: auto;
+    width: 300px;
+    background-size: contain;
+  }
+}
+
+.navbar > .container-fluid .navbar-brand {
+  margin-left: 3%;
+}

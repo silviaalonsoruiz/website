@@ -3,105 +3,133 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="dist/scripts/jquery/jquery.min.js"></script>
+    <script src="dist/scripts/bootstrap/bootstrap.js"></script>
     <link rel="stylesheet" type="text/css" href="dist/styles/home.css">
-    <title>Silvia Alonso Ruiz -- Portfolio</title>
+    <title>Silvia Alonso Ruiz -- UX Portfolio</title>
 </head>
 <body>
-
-<div class="head">
-    <!--<div class="img-background">-->
-    <!--<img class="background" src="src/images/golden-background.jpg">-->
-    <!--</div>-->
-    <div style="background-image: url(src/images/cadiz.jpg)" class="head-container">
-        <div class="introduction  container">
-            <p class="title">Hello!! My name is Silvia Alonso</p>
-
-            <p class="subtitle">I´m a UX-UI designer, illustrator and artist. And this is my little word...</p>
-
-            <p class="quote">”My aim is to omit everything superfluous so that the essential is shown to the best
-                possible advantage.”
-                <span>Dieter Rams</span></p>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand brand-logo" href="#"></a>
         </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#maincontent">Portfolio <span>|</span></a>
+                </li>
+                <li><a href="src/htmls/wait-carousel.html">About <span>|</span></a>
+                </li>
+                <li><a href="mailto:silvia.alonso.ruiz@gmail.com">Contact</a></li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-</div>
-<!--<div class="head">-->
-<!--<div class="img-background">-->
-<!--<img class="background" src="src/images/golden-background.jpg">-->
-<!--</div>-->
-<!--<div class="head-container container">-->
-<!--<div class="introduction">-->
-<!--<p class="title">Hello!! My name is Silvia Alonso</p>-->
+    <!-- /.container-fluid -->
+</nav>
 
-<!--<p class="subtitle">I´m a UX-UI designer, ilustrator and artist. And this is my little word...</p>-->
 
-<!--<p class="quote">”My aim is to omit everything superfluous so that the esential is shown to the best-->
-<!--possible advantage.”-->
-<!--<span>Dieter Rams</span></p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<div class="bg-home">
-    <div class="container">
-        <div class="cards">
-            <div class="card-container">
-                <a href="src/htmls/wait-carousel.html">
-                    <img src="src/images/illustrations.jpg"/>
+<section class="main-head">
+    <article class="background">
 
-                    <div class="title">Illustrations</div>
-                </a>
+    </article>
+    <article class="main-texts">
+
+        <p class="title">Hello!! My name is Silvia Alonso</p>
+
+        <p class="subtitle">I´m a UX-UI designer, illustrator and artist. And this is my little word...</p>
+
+        <p class="quote">"My aim is to omit everything superfluous so that the essential is shown to the best possible
+            advantage"<span>Dieter Rams</span></p>
+
+        <P class="button-home"><a href="#maincontent">
+            <button type="button" class="btn">View portfolio</button>
+        </a></P>
+
+
+    </article>
+    <a name="maincontent">
+        <article class="">
+
+            <div class="container">
+                <div class="cards">
+                    <div class="card-container">
+                        <a href="src/htmls/wait-carousel.html">
+                            <img src="src/images/illustrations.jpg"/>
+
+                            <div class="title">Illustrations</div>
+                        </a>
+                    </div>
+                    <div class="card-container">
+                        <a href="src/htmls/wait-carousel.html">
+                            <img src="src/images/full-color.jpg"/>
+
+                            <div class="title">Full of color</div>
+                        </a>
+                    </div>
+                    <div class="card-container">
+                        <a href="src/htmls/wait-carousel.html">
+                            <img src="src/images/projects.jpg"/>
+
+                            <div class="title">Projects</div>
+                        </a>
+                    </div>
+                    <div class="card-container">
+                        <a href="src/htmls/wait-carousel.html">
+                            <img src="src/images/meseon.jpg"/>
+
+                            <div class="title">Meseon</div>
+                        </a>
+                    </div>
+                    <div class="card-container">
+                        <a href="src/htmls/wait-carousel.html">
+                            <img src="src/images/black-white.jpg"/>
+
+                            <div class="title">Black & White</div>
+                        </a>
+                    </div>
+                    <div class="card-container">
+                        <a href="src/htmls/wait-carousel.html">
+                            <img src="src/images/about-me.jpg"/>
+
+                            <div class="title">About me</div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="card-container">
-                <a href="src/htmls/wait-carousel.html">
-                    <img src="src/images/full-color.jpg"/>
 
-                    <div class="title">Full of color</div>
-                </a>
+
+        </article>
+    </a>
+    <footer class="footer">
+        <div class="container">
+            <div class="email">
+                <a href="mailto:silvia.alonso.ruiz@gmail.com"> <img src="src/images/footer/icon-email.png"></a>
             </div>
-            <div class="card-container">
-                <a href="src/htmls/wait-carousel.html">
-                    <img src="src/images/projects.jpg"/>
-
-                    <div class="title">Projects</div>
-                </a>
-            </div>
-            <div class="card-container">
-                <a href="src/htmls/wait-carousel.html">
-                    <img src="src/images/meseon.jpg"/>
-
-                    <div class="title">Meseon</div>
-                </a>
-            </div>
-            <div class="card-container">
-                <a href="src/htmls/wait-carousel.html">
-                    <img src="src/images/black-white.jpg"/>
-
-                    <div class="title">Black & White</div>
-                </a>
-            </div>
-            <div class="card-container">
-                <a href="src/htmls/wait-carousel.html">
-                    <img src="src/images/about-me.jpg"/>
-
-                    <div class="title">About me</div>
-                </a>
+            <div class="share">
+                <img alt="Follow me on Instagram" src="src/images/footer/icon-instagram.png">
+                <a href="https://twitter.com/silvia_alonso?lang=es" target="_blank"><img alt="Follow me on Twitter"
+                                                                                         src="src/images/footer/icon-twiter.png"></a>
+                <a href="http://www.linkedin.com/in/silviaalonsoruiz/es" target="_blank"><img alt="Meet me on LinkedIn"
+                                                                                              src="src/images/footer/icon-linkedin.png"></a>
             </div>
         </div>
-    </div>
-</div>
+    </footer>
+</section>
 
 
-<div class="footer">
-    <div class="container">
-        <div class="email">
-            <a href="mailto:silvia.alonso.ruiz@gmail.com"> <img src="src/images/footer/icon-email.png"></a>
-        </div>
-        <div class="share">
-            <img alt="Follow me on Instagram" src="src/images/footer/icon-instagram.png">
-            <img alt="Follow me on Twitter" src="src/images/footer/icon-twiter.png">
-            <a href="http://www.linkedin.com/in/silviaalonsoruiz/es" target="_blank"><img alt="Meet me on LinkedIn"
-                                                                                          src="src/images/footer/icon-linkedin.png"></a>
-        </div>
-    </div>
-</div>
 </body>
 </html>
