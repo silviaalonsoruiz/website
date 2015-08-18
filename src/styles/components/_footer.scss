@@ -1,6 +1,6 @@
 .footer {
   @include clearfix;
-  background:rgba(119,143,174, 0.2);
+  background:rgba($brand-primary, 0.5);
 //  border-bottom: 1px solid #ba007c;
   padding: ($padding-base*2) ($padding-base*3);
   margin-top: $margin-base*2;
